@@ -112,7 +112,7 @@ export default function Services() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            What I Do
+            What We Do
           </motion.h2>
           <motion.p
             className="text-foreground/60 text-sm md:text-base font-light tracking-wide max-w-xl mt-4 leading-relaxed uppercase"

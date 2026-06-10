@@ -87,6 +87,22 @@ const projects: Project[] = [
     thumbnail: "https://res.cloudinary.com/dxqjrsuaz/video/upload/v1779562004/Edit_2_jy5vrh.jpg",
     aspectRatio: "9/16",
   },
+  {
+    id: 10,
+    name: "CCF Center",
+    category: "UGC",
+    videoId: "CCF_1_eytyat",
+    thumbnail: "https://res.cloudinary.com/dxqjrsuaz/video/upload/CCF_1_eytyat.jpg",
+    aspectRatio: "9/16",
+  },
+  {
+    id: 11,
+    name: "Hajj Edit",
+    category: "UGC",
+    videoId: "islamic_OH24MBPu_np2ck1",
+    thumbnail: "https://res.cloudinary.com/dxqjrsuaz/video/upload/islamic_OH24MBPu_np2ck1.jpg",
+    aspectRatio: "9/16",
+  },
 ];
 
 const filters = [

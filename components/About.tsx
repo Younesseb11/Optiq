@@ -15,13 +15,13 @@ const stats: StatItem[] = [
   {
     id: 1,
     icon: <Award className="text-accent mb-2" size={20} />,
-    value: "50+ Projects",
+    value: "100+ Projects",
     label: "Edited & Delivered",
   },
   {
     id: 2,
     icon: <Compass className="text-accent mb-2" size={20} />,
-    value: "2+ Years",
+    value: "4+ Years",
     label: "Industry Experience",
   },
   {
@@ -40,7 +40,7 @@ export default function About() {
     >
       {/* Decorative large font backing */}
       <div className="absolute left-6 bottom-10 font-display text-[12vw] text-dark-100 opacity-20 pointer-events-none select-none tracking-widest leading-none">
-        YOUNESS
+        OPTIQ
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
@@ -54,7 +54,7 @@ export default function About() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              The Mind Behind the Edits
+              Who We Are
             </motion.span>
 
             <motion.h2
@@ -75,17 +75,17 @@ export default function About() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <p>
-                I&apos;m Youness, a professional video editor and motion designer
-                specializing in short-form content that converts. I work with
-                digital creators, local businesses, and brands to build visual
-                stories that make people stop — and stay.
+                Optiq is a video editing studio specializing in short-form content
+                that converts. We work with digital creators, local businesses,
+                and brands to build visual stories that make people stop — and
+                stay.
               </p>
               <p>
-                My philosophy is simple:{" "}
+                Our philosophy is simple:{" "}
                 <em className="text-foreground font-medium not-italic border-b border-accent/40">
                   every second of your video should earn its place.
                 </em>{" "}
-                I bring together sharp editing, dynamic pacing, and purposeful
+                We bring together sharp editing, dynamic pacing, and purposeful
                 sound design to create content that performs.
               </p>
             </motion.div>
@@ -128,16 +128,17 @@ export default function About() {
               <div className="absolute -bottom-1.5 -left-1.5 w-4 h-4 border-b-2 border-l-2 border-accent" />
               <div className="absolute -bottom-1.5 -right-1.5 w-4 h-4 border-b-2 border-r-2 border-accent" />
 
-              {/* Photo Frame */}
-              <div className="relative w-full h-full bg-dark-200 overflow-hidden flex flex-col justify-center items-center select-none border border-dark-300">
-                <Image
-                  src="/portrait.jpg"
-                  alt="Youness Portrait"
-                  fill
-                  className="object-cover grayscale hover:grayscale-0 transition-all duration-700 opacity-90 hover:opacity-100"
-                  sizes="(max-width: 768px) 100vw, 360px"
-                  priority
-                />
+              {/* Photo Frame with Centered Optiq Logo */}
+              <div className="relative w-full h-full bg-gradient-to-br from-dark-300 via-dark-200 to-black placeholder-noise overflow-hidden flex flex-col justify-center items-center select-none border border-dark-300">
+                <div className="relative w-48 h-16 z-10 transition-transform duration-700 group-hover:scale-110">
+                  <Image
+                    src="/logo.png"
+                    alt="Optiq Logo"
+                    fill
+                    className="object-contain"
+                    priority
+                  />
+                </div>
 
                 {/* SVG Film Grid backdrop overlay */}
                 <div className="absolute inset-0 z-10 bg-[radial-gradient(#242424_1px,transparent_1px)] bg-[size:16px_16px] opacity-30 mix-blend-overlay pointer-events-none" />

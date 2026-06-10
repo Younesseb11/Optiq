@@ -4,14 +4,14 @@ import { motion as m } from "framer-motion";
 import { MessageSquare, Mail, ArrowRight } from "lucide-react";
 
 export default function Contact() {
-  // TODO: Replace the phone number placeholder '212XXXXXXXXX' with Youness's real business phone number
+  // TODO: Replace the phone number placeholder '212XXXXXXXXX' with Optiq's real business phone number
   const whatsappNumber = "212XXXXXXXXX";
   const whatsappMessage = encodeURIComponent(
-    "Hello Youness! I saw your portfolio under OPTIQ and I'd like to discuss a video project."
+    "Hello Optiq! We saw your portfolio and would like to discuss a video project."
   );
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
-  // TODO: Replace the email placeholder with Youness's production business email address
+  // TODO: Replace the email placeholder with Optiq's production business email address
   const emailAddress = "hello@optiq.agency";
   const mailtoUrl = `mailto:${emailAddress}?subject=Project%20Inquiry%20-%20OPTIQ`;
 

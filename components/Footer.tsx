@@ -21,17 +21,17 @@ export default function Footer() {
   const socialLinks = [
     {
       name: "Instagram",
-      href: "#", // TODO: Add Youness's real Instagram profile URL
+      href: "#", // TODO: Add Optiq's real Instagram profile URL
       icon: <Instagram size={16} />,
     },
     {
       name: "TikTok",
-      href: "#", // TODO: Add Youness's real TikTok profile URL
+      href: "#", // TODO: Add Optiq's real TikTok profile URL
       icon: <TikTokIcon />,
     },
     {
       name: "YouTube",
-      href: "#", // TODO: Add Youness's real YouTube channel URL
+      href: "#", // TODO: Add Optiq's real YouTube channel URL
       icon: <Youtube size={16} />,
     },
   ];

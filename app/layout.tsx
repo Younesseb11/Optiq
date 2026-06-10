@@ -17,9 +17,9 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Youness | Optiq — Video Editor",
+  title: "Optiq — Premium Video Editing Studio",
   description:
-    "Youness is a professional video editor specializing in short-form content, brand ads, and cinematic edits for creators and businesses worldwide.",
+    "Optiq is a professional video editing studio specializing in short-form content, brand ads, and cinematic edits for creators and businesses worldwide.",
   metadataBase: new URL("https://optiq.agency"),
   alternates: {
     canonical: "/",
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     icon: "/fav.ico",
   },
   openGraph: {
-    title: "Youness | Optiq — Video Editor",
+    title: "Optiq — Premium Video Editing Studio",
     description:
-      "Youness is a professional video editor specializing in short-form content, brand ads, and cinematic edits for creators and businesses worldwide.",
+      "Optiq is a professional video editing studio specializing in short-form content, brand ads, and cinematic edits for creators and businesses worldwide.",
     url: "https://optiq.agency",
     siteName: "OPTIQ",
     locale: "en_US",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Youness | Optiq — Video Editor",
+    title: "Optiq — Premium Video Editing Studio",
     description:
-      "Youness is a professional video editor specializing in short-form content, brand ads, and cinematic edits for creators and businesses worldwide.",
+      "Optiq is a professional video editing studio specializing in short-form content, brand ads, and cinematic edits for creators and businesses worldwide.",
   },
 };
 

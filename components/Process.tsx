@@ -25,7 +25,7 @@ const steps: Step[] = [
     number: "02",
     icon: <Edit3 size={24} className="text-accent" />,
     title: "Edit & Review",
-    description: "I construct the narrative, color correct, apply sound design, add typography, and deliver a first draft. You review and request changes.",
+    description: "We construct the narrative, color correct, apply sound design, add typography, and deliver a first draft. You review and request changes.",
   },
   {
     id: 3,

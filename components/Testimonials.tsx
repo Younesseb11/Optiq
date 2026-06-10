@@ -15,7 +15,7 @@ const testimonials: Testimonial[] = [
   {
     id: 1,
     quote:
-      "Youness completely transformed our social presence. Our Reels went from averaging 2k views to getting over 150k views in less than three weeks. His pacing and sound cues are absolutely unmatched.",
+      "Optiq completely transformed our social presence. Our Reels went from averaging 2k views to getting over 150k views in less than three weeks. Their pacing and sound cues are absolutely unmatched.",
     author: "Amine El Amrani",
     role: "Tech Content Creator",
     projectType: "Social Content Reel",
@@ -23,7 +23,7 @@ const testimonials: Testimonial[] = [
   {
     id: 2,
     quote:
-      "We hired Optiq to edit our restaurant launch video. The cinematic edits and quick cuts had people lining up from day one. He knows exactly how to hook the target audience.",
+      "We hired Optiq to edit our restaurant launch video. The cinematic edits and quick cuts had people lining up from day one. They know exactly how to hook the target audience.",
     author: "Sofia Bennani",
     role: "Owner, Summit Bistro",
     projectType: "Restaurant Promo Film",
@@ -31,7 +31,7 @@ const testimonials: Testimonial[] = [
   {
     id: 3,
     quote:
-      "Exceptional attention to detail and reliable deadlines. Youness's text animation style is top-tier. He took our raw product clips and turned them into highly high-converting commercial ad assets.",
+      "Exceptional attention to detail and reliable deadlines. Optiq's text animation style is top-tier. They took our raw product clips and turned them into highly high-converting commercial ad assets.",
     author: "Karim Mansouri",
     role: "E-commerce Brand Director",
     projectType: "Brand Ad Production",
